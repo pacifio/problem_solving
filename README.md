@@ -18,6 +18,8 @@ A repo where I practice competitive programming
 
 [Product of Digits](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/find-product/) -> `product_of_digits.cpp`
 
+[FizzBuzz](https://www.hackerrank.com/challenges/fizzbuzz/problem) -> `fizz_buzz.cpp`
+
 ## MEDIUM
 
 [Printing pattern 2](https://www.hackerrank.com/challenges/printing-pattern-2/problem) -> `printing_pattern_2.cpp`
