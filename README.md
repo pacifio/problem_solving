@@ -36,6 +36,8 @@ A repo where I practice competitive programming
 
 [Remove char](https://practice.geeksforgeeks.org/problems/remove-character3815/1) -> `remove_char.cpp`
 
+[Stones](https://www.codechef.com/status/STONEShttps://www.codechef.com/status/STONES) -> `stones.cpp`
+
 ## MEDIUM
 
 [Pash and stick](https://codeforces.com/problemset/problem/610/A) -> `pasha_and_stick.cpp`
