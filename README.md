@@ -38,6 +38,19 @@ A repo where I practice competitive programming
 
 [Stones](https://www.codechef.com/status/STONEShttps://www.codechef.com/status/STONES) -> `stones.cpp`
 
+[Sums of i-th row and i-th column](https://practice.geeksforgeeks.org/problems/sums-of-i-th-row-and-i-th-column3054/1) -> `sum_i_r_c.cpp`
+
+[Day 7: Arrays](https://www.hackerrank.com/challenges/30-arrays/problem) -> `reverse_array_print.cpp`
+
+[Number of occurrence](https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1) -> `n_of_occur.cpp`
+
+[Cost of balloons](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/mojtaba-prepares-contest-29b2a044/) -> `cost_of_balloons.cpp`
+
+[Micro and arrays](https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/micro-and-array-update/) -> `micro_and_arrays.cpp`
+
+[Roy and symmetric logos](https://www.hackerearth.com/practice/data-structures/arrays/multi-dimensional/practice-problems/algorithm/roy-and-symmetric-logos-1/
+) -> `roy_and_symmetric_logos.cpp`
+
 ## MEDIUM
 
 [Pash and stick](https://codeforces.com/problemset/problem/610/A) -> `pasha_and_stick.cpp`
