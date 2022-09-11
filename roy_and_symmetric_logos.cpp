@@ -18,50 +18,32 @@ int main() {
 			cin >> a[i];
 		}
 
-		int _n;
-
-		if (n%2 == 0) {
-			_n = n/2;
-		}else {
-			_n = n/2 + 1;
-
-		}
-
-		bool match = false;
+		bool rowmatch = false;
 		for (int i = 0;i<n;++i) {
-			if (a[i].substr(0, _n) == rev(a[i].substr(_n, n-1))) {
-				match = true;
+			if (a[i].substr(0, n/2) == rev(a[i].substr(((n%2 == 0) ? (n/2) : (n/2)+1), n-1))) {
+				rowmatch = true;
 			}else {
-				match = false;
+				rowmatch = false;
 				break;
 			}
 
 		}
 
-		cout << match << endl;
+		bool colmatch = false;
+		for(int i=0;i<n;i++) {
+			if (a[i] == a[(n-1)-i]) {
+				colmatch = true;
+			}else {
+				colmatch = false;
+				break;
+			}
+		}
 
-		// int _n = n/2;
-		// for (int i=0;i<_n;++i) {
-		// 	for(int j=_n;j<n;++j) {
-		// 		// cout << a[i] << " " << a[j] << endl;
-		// 		cout << a[i] << endl;
-		// 	}
-		// 	cout << endl;
-		// }
 
-		// bool match = false;
-		// for (int i=0;i<n;++i) {
-		// 	if (a[i] == a[(n-1)-i]) {
-		// 		match = true;
-		// 	}else {
-		// 		match = false;
-		// 	}
-		// }
-
-		// if (match) {
-		// 	cout << "YES" << endl;
-		// }else {
-		// 	cout << "NO" << endl;
-		// }
+		if (rowmatch and colmatch) {
+			cout << "YES" << endl;
+		}else {
+			cout << "NO" << endl;
+		}
 	}
 }

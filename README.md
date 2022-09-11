@@ -51,6 +51,8 @@ A repo where I practice competitive programming
 [Roy and symmetric logos](https://www.hackerearth.com/practice/data-structures/arrays/multi-dimensional/practice-problems/algorithm/roy-and-symmetric-logos-1/
 ) -> `roy_and_symmetric_logos.cpp`
 
+[Cyclically rotate an array by one](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1) -> `rotate.cpp`
+
 ## MEDIUM
 
 [Pash and stick](https://codeforces.com/problemset/problem/610/A) -> `pasha_and_stick.cpp`
