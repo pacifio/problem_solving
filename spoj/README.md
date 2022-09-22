@@ -1,0 +1,1 @@
+[SPOJ life](https://www.spoj.com/problems/TEST/) -> `life.cpp`
